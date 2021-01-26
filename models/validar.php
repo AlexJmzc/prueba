@@ -3,7 +3,7 @@ $usuario=$_POST['usuario'];
 $contraseña=$_POST['contraseña'];
 $_SESSION['usuario']=$usuario;
 
-$conexion=mysqli_connect("localhost","root","","base_uta");
+$conexion=mysqli_connect("sql202.epizy.com","epiz_27780615","BXjWSHmtfjsCyIF","epiz_27780615_base_uta");
 
 $consulta="SELECT*FROM usuarios where CED_USU='$usuario' and CLAVE_USU='$contraseña'";
 

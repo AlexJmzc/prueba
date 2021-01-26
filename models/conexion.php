@@ -1,8 +1,8 @@
 <?php
-$servername="localhost";
-$username="root";
-$password="";
-$dbname="base_uta";
+$servername="sql202.epizy.com";
+$username="epiz_27780615";
+$password="BXjWSHmtfjsCyIF";
+$dbname="epiz_27780615_base_uta";
 $conn= mysqli_connect($servername,$username,$password,$dbname);
 $mysqli = new mysqli($servername,$username,$password,$dbname);
 if(!$mysqli)
